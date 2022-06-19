@@ -24,7 +24,7 @@ class Vars:
     OWNER_ID = int(config("OWNER_ID", default=1198820588))
     CAPTION = config("CAPTION", default="By @DivideProjects")
     VERSION = config("VERSION", default="v1.1 - Stable")
-    STREAMTAPE_DEFAULT = config("STREAMTAPE_DEFAULT", default=None, cast=config.boolean)
+    #STREAMTAPE_DEFAULT = config("STREAMTAPE_DEFAULT", default=None, cast=config.boolean)
     BOT_USERNAME = config("BOT_USERNAME")
     DB_URI = config("DB_URI")
     MAX_VIDEOS = int(config("MAX_VIDEOS", default=10))

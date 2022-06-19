@@ -3,10 +3,9 @@ beautifulsoup4
 hachoir
 numpy
 Pillow
-pyrogram==1.4.16
+pyrogram
 requests
 tgcrypto
-https://github.com/Naysabots/yt-dlp/archive/refs/tags/2022.04.08.zip
 olefile
 motor
 pymongo
@@ -17,3 +16,4 @@ filetype
 tldextract
 aiofiles
 pyromod
+prettyconf

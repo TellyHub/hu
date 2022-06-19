@@ -1,1 +1,1 @@
-worker: python3 -m vidmergebot
+python3 -m vidmergebot

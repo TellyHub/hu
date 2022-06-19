@@ -28,7 +28,7 @@ class Vars:
     BOT_USERNAME = config("BOT_USERNAME")
     DB_URI = config("DB_URI")
     MAX_VIDEOS = int(config("MAX_VIDEOS", default=10))
-    JOIN_CHECK = config("JOIN_CHECK", default=None, cast=config.boolean)
+    JOIN_CHECK = config("JOIN_CHECK", default=None)
     MAX_NON_JOIN_USAGE = int(config("MAX_NON_JOIN_USAGE", default=2))
     MAX_JOIN_USAGE = int(config("MAX_JOIN_USAGE", default=2))
     LIMIT_USER_USAGE = config("LIMIT_USER_USAGE", default=None, cast=config.boolean)

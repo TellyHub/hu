@@ -32,3 +32,4 @@ class Vars:
     MAX_NON_JOIN_USAGE = int(config("MAX_NON_JOIN_USAGE", default=2))
     MAX_JOIN_USAGE = int(config("MAX_JOIN_USAGE", default=2))
     LIMIT_USER_USAGE = config("LIMIT_USER_USAGE", default=None)
+    STREAMTAPE_DEFAULT = config("STREAMTAPE_DEFAULT", default=None)
